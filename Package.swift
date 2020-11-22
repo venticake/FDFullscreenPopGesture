@@ -13,7 +13,8 @@ let package = Package(
     targets: [
         .target(
             name: "FDFullscreenPopGesture",
-            path: "FDFullscreenPopGesture"
+            path: "FDFullscreenPopGesture",
+            publicHeadersPath: "."
         )
     ]
 )
